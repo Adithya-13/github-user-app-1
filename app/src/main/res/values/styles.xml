@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondColor</item>
+        <item name="colorPrimaryDark">@color/firstColor</item>
+        <item name="colorAccent">@color/thirdColor</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/secondColor</item>
+        <item name="colorPrimaryDark">@color/firstColor</item>
+        <item name="colorAccent">@color/thirdColor</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowBackground">@drawable/layer_list_splashscreen</item>
+    </style>
+
+</resources>
